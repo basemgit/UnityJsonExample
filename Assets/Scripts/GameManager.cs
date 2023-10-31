@@ -7,23 +7,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     public string playerName;
     public TMP_InputField inputField;
-    private void Awake()
-    {
-
-
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+   
     [System.Serializable]
     public class GameData
     {
